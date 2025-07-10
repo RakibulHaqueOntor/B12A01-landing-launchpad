@@ -133,3 +133,85 @@
   /* color: rgba(37, 36, 50, 0.5); */
   text-align: center;
 }
+.users_say{
+  height: 342px;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 138px;
+}
+.say{
+  display: flex;
+  justify-content: space-between;
+
+}
+.card{
+  height: 243px;
+  width: 366px;
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.reverinfo{
+  height: 46px;
+  width: 318px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: 24px;
+}
+.icon{
+  padding: 24px;
+}
+.title_d{
+  height: 81px;
+  width: 319px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+.sub_title2{
+  font-size: 42px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.t1{
+  color: rgba(30, 30, 30, 1);
+  margin: 0px;
+}
+.t2{
+  color: rgba(30, 30, 30, 1);
+}
+.t3{
+  color: rgba(117, 117, 117, 1);
+  margin: 0px;
+}
+.t4{
+  color:rgba(179, 179, 179, 1);
+  margin: 0px;
+}
+.avatar{
+  height:40px ;
+  width: 40px;
+  border-radius: 9999px;
+}
+.focus{
+  justify-items: center;
+}
+.focus_title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.focus_descreption{
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.focus_image{
+  height:365px ;
+  width:840px ;
+  border-radius: 48px;
+  display: block;
+  padding-top: 20px;
+}
