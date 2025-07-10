@@ -1,3 +1,9 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -10,7 +16,7 @@
 .titlecolor{
   color: #252432;
 }
-.description{
+.description_color{
   color: rgba(37, 36, 50, 0.5);
 }
 
@@ -80,4 +86,50 @@
 .description{
   font-size: 24px;
   font-weight: 400px;
+}
+.joined{
+  width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 116px 159px 137px 141px;
+  display: flex;
+  justify-content: center;
+  
+}
+.sub_field{
+  margin-top: 50px;
+  width: 856px;
+  height: 206px;
+}
+.users{
+  display: flex;
+  justify-content: space-between;
+}
+.user{
+  height: 121px;
+  width: 180px;
+}
+.joined_title{
+  font-size:38px ;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.number{
+  height: 97px;
+  width: 162px;
+  font-size:80px ;
+  font-weight: bold ;
+  font-family: inter;
+  margin: 0px;
+
+}
+.description2{
+  font-size: 20px;
+  font-weight: 400px;
+  margin: 0px;
+  /* color: rgba(37, 36, 50, 0.5); */
+  text-align: center;
 }
