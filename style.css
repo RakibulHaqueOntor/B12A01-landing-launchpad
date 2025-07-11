@@ -19,6 +19,9 @@
 .description_color{
   color: rgba(37, 36, 50, 0.5);
 }
+body{
+  width: 1440px;
+}
 
 .head{
   background-image: url(Assets/Hero-bg.png);
@@ -71,7 +74,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:116px 159px 116px 141px ;
+  margin:0px 159px 116px 141px ;
+  padding-top: 116px;
 }
 .action_content{
   height:203px ;
@@ -286,4 +290,50 @@
 .get_in{
   width: 497px;
   margin-top: 19px;
+}
+.footer{
+  margin-top: 14px;
+  height: 488px;
+  width: 1440px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot{
+  height: 221px;
+  width: 531px;
+  background-color: white;
+}
+.footer_logo{
+  color: rgba(78, 71, 255, 1) ;
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0px;
+  text-align: center;
+}
+.footer_texts{
+  font-size: ;
+  font-weight: ;
+  color: rgba(137, 135, 161, 1);
+}
+.footer_description{
+  height: 48px;
+  width: 531px;
+  text-align: center;
+  margin: 8px 0px 0px 0px;
+}
+
+.fotter_nav{ 
+  height: 24px;
+  width: 401px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.fotter_nav a{
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
 }
