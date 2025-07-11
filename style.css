@@ -61,6 +61,10 @@
 .stay_focused{
   margin: 37px 365.5px 0 365.5px;
 }
+.main_part{
+  background-color: #F5F8FF;
+
+}
 .action{
   width: 1140px;
   height: 328px;
@@ -136,7 +140,7 @@
 .users_say{
   height: 342px;
   width: 1140px;
-  margin: 0 auto;
+  margin: 137px 149px 137px 151px;
   margin-bottom: 138px;
 }
 .say{
@@ -195,7 +199,13 @@
   border-radius: 9999px;
 }
 .focus{
+  margin: 137px 149px 93px 151px;
   justify-items: center;
+  align-content: center;
+  height: 697px;
+  width: 1140px;
+  background-color: white;
+  margin-bottom: 93px;
 }
 .focus_title{
   font-size: 50px;
@@ -214,4 +224,66 @@
   border-radius: 48px;
   display: block;
   padding-top: 20px;
+}
+.form_section{
+  height: 632px;
+  width: 1140px;
+  margin: 137px 149px 14px 151px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form_text{
+  width: 528px;
+  height: 232px;
+  font-size: 97px;
+  font-weight: bold;
+}
+.form{
+  height: 490px;
+  width: 497px;
+}
+.one{
+  border-radius: 10px;
+  width: 458px;
+  background-color: white;
+  border-color: #D6DDED;
+  padding: 20px 0px 20px 32px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+.two{
+  width: 458px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: #D6DDED;
+  padding: 20px 0px 85px 32px;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+.label_text{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+::placeholder{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+}
+.email_box{
+  height:102px ;
+  width: 497px;
+}
+.name_box{
+  height: 102px;
+  width: 497px;
+}
+.text_box{
+  height:167px;
+  width:497px ;
+}
+.get_in{
+  width: 497px;
+  margin-top: 19px;
 }
