@@ -337,3 +337,7 @@ body{
   text-decoration: none;
   color: rgba(137, 135, 161, 1);
 }
+.btn_primary:hover{
+  background-color: yellow;
+  color: black;
+}
